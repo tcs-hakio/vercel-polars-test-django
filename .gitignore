@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Local development server
+.env
+
+# Other
+*.pyc
+.DS_Store
