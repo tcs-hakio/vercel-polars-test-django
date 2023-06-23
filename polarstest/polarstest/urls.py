@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from polarstest.views import process_parquet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('process-parquet/', process_parquet, name='process_parquet'),
 ]
